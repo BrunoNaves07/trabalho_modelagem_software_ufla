@@ -1,0 +1,23 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar color="primary">
+    <ion-title> Climabr </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col size="3" size-sm offset-sm="1" size-md="6" offset-md="2">
+        <ion-searchbar debounce="500" placeholder="Buscar cidade..." #searchInput (ionChange)="onSearch(searchInput.value)"></ion-searchbar>
+
+        <app-error-message message="{{errorMessage}}" *ngIf="hasError" ></app-error-message>
+        <ion-list lines="none" *ngIf="!hasError">
+          <app-city-details *ngFor="let city of cities" id="{{city.id}}" name="{{city.name}}" state="{{city.state}}" (selectCity)="onSelectCity($event)"></app-city-details>
+        </ion-list>
+      </ion-col>
+      <ion-col size="3" size-sm>
+        <app-my-geolocation></app-my-geolocation>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

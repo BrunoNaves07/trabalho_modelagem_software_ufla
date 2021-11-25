@@ -1,0 +1,5 @@
+<ion-button color="primary" detail (click)="buscaCidade()">
+  <ion-icon name="locate"></ion-icon> Meu Local
+</ion-button>
+
+<app-city-details *ngFor="let city of cities" id="{{city.id}}" name="{{city.name}}" state="{{city.state}}" (selectCity)="onSelectCity($event)"></app-city-details>
