@@ -26,6 +26,11 @@ Clone este repositório.
 
 Entre na pasta do projeto e execute o comando abaixo para instalar as dependências:
 
+## Link para Teste
+O aplicativo esta hospedado na Hostgator plano compartilhado.
+[Aplicativo hospedado para testar](https://climabr.bnine.com.br/)
+
+
 `npm install`
 
 Acesse o site https://openweathermap.org/api, faça seu cadastro e crie uma chave de API.
