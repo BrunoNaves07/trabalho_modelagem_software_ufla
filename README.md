@@ -1,6 +1,24 @@
+# Trabalho Prático de Modelagem e Implementação de Software - UFLA 2021/1
+- Bruno Carlos de Mesquita Naves
+- Stenio Henrique Machado Silva
+- Wender Beraldo Lemes Pereira
+
+## Aplicação
+Esta aplicação foi desenvolvida pelo professor Paulo Afonso Pereira como parte de estudo prático
+da disciplina de Modelagem e Implementação de Software da Universidade Federal de Lavras.
+
+[Repositório original feito pelo professor](https://github.com/gcc132-2020-2/climabr)
+
+A implementação feita pelo grupo foi a de Geolocalização.
+
 # ClimaBR
 
 Uma aplicação simples para consulta à previsão do tempo de cidades brasileiras.
+
+## Geolocalização com Algorítmo de Haversine
+
+Esta aplicação tem consigo a implementação do Algorítmo de Haversine utilizado com a biblioteca de Geolocalização
+do Ionic.
 
 # Como usar?
 
@@ -26,4 +44,4 @@ Para abrir a aplicação, execute o comando:
 
 `ionic serve`
 
-Enjoy!
+Bora!
